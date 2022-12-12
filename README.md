@@ -1,3 +1,1 @@
-
-# to run locally
-bundle exec jekyll serve
+# VidentTech.github.io
