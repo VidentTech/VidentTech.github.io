@@ -4,15 +4,23 @@ body {
     width: 100%;
 }
 
-
-
 body {
     @include serif-font;
 }
 
+.alpha { color: $theme-primary; }
+.beta {  color: $theme-dark; }
+.bg-alpha {background-color: $theme-primary;}
+.bg-beta {background-color: $theme-dark;}
+.alpha-text { color: $text-primary;}
+.beta-text {color: $text-dark;}
+.top10 { margin-top:10px; }
+
 hr {
     border-color: $theme-primary;
-    border-width: 3px;
+    margin: 0 auto;
+    padding: 5px;
+    border-width: 5px;
     max-width: 50px;
 }
 
@@ -76,7 +84,7 @@ aside {
     background-color: rgb(77, 30, 87);
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
-    @include transition-all;
+    // @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
         @include sans-serif-font;
@@ -155,7 +163,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-cover;
+    // @include background-cover;
     background-position: center;
     text-align: center;
     color: white;
@@ -206,6 +214,14 @@ header {
     }
 }
 
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.01s;
+    -webkit-transition:  0.01s;
+}
 // Sections
 
 .section-heading {

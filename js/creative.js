@@ -12,13 +12,13 @@
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+        }, 50, 'easeInOutExpo');
         event.preventDefault();
     });
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
-        target: '.navbar-fixed-top',
+        target: '.navbar-default',
         offset: 51
     })
 
