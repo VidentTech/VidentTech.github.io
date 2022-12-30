@@ -46,10 +46,14 @@ h6 {
     @include sans-serif-font;
 }
 
+.bg-dark-50{
+    background-color: rgba(#999191, 0.3);
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .bg-primary {
@@ -81,7 +85,6 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: rgb(77, 30, 87);
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     // @include transition-all;
@@ -159,6 +162,14 @@ aside {
 }
 
 // Homepage Header
+#myVideo {
+//   position: fixed;
+//   right: 0;
+//   bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -186,7 +197,7 @@ header {
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 24px;
-                margin-bottom: 50px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -335,7 +346,7 @@ header {
 
 // Contact
 #contact .fa {
-    // color: $text-primary;
+    color: $text-primary;
     font-size: 4em;
 }
 

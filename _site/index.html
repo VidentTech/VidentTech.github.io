@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7XQREBHQM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P7XQREBHQM');
+    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +47,7 @@
 
 
 <body id="page-top">
-  <nav id="mainNav" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top navbar-default">
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
     <div class="container-fluid">
         
         <a class="navbar-brand page-scroll alpha-text" href="#page-top">VIDENT</a>
@@ -49,12 +58,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav navbar-right">
-                <li>
+                <!-- <li>
                     <a class="nav-link alpha-text" href="#mission">The Mission</a>
                 </li>
                 <li>
                     <a class="nav-link alpha-text" href="#tech">The Tech</a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <a class="page-scroll" href="#team">The Team</a>
                 </li> -->
@@ -68,20 +77,24 @@
     <!-- /.container-fluid -->
 </nav>
 
-  <header class="bg-dark">
-    <div class="header-content">
+  <header>
+<video autoplay muted loop id="myVideo">
+  <source src="img/Earth.mp4" type="video/mp4">
+</video>
+    <div class="header-content bg-dark-50">
         <div class="header-content-inner">
-            <h1>Vident</h1>            
+            <div data-toggle="tooltip-arrow" data-bs-placement="top" title="Latin -They look/observe/reflect">
+                <h1 class="alpha-text">Vident</h1>
+            </div>
             <img src="favicon.png" class="img-fluid top10" alt="" width="100px">
             <p class="top10">
-                Creating innovative technologies for analyzing and utilizing remote sensing data
+                Innovative technologies for analyzing remote sensing data
             </p>
-            <a href="#mission" class="btn btn-primary btn-xl">Find Out More</a>
         </div>
     </div>
 </header>
 
-  <section class="bg-alpha alpha-text" id="mission">
+  <!-- <section class="bg-alpha alpha-text" id="mission">
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -89,15 +102,15 @@
                 <hr class="alpha-text">
 
                 <p>
-                    Our mission is to push the boundaries of remote sensing technology through cutting-edge research and development. We are dedicated to exploring new and innovative algorithms and solutions, and to providing our clients with access to the latest and most advanced technologies in the field. Through our dedication to R&D, we aim to enable our clients to gain valuable insights and make better, more informed decisions based on high-quality data.
+                    Pushing the boundaries of remote sensing technology through cutting-edge R&D
                 </p>
 
             </div>
         </div>
     </div>
 </section>
-
-  <section class="bg-dark" id="tech">
+ -->
+  <!-- <section class="bg-dark" id="tech">
     <div class="container">
         <div class="col-lg-12 text-center justify-content-center">
             <h2 class="section-heading">The Tech</h2>
@@ -151,8 +164,8 @@
         </div>
     </div>
 </section>
-
-  <section id="services" class="bg-dark">
+ -->
+  <!-- <section id="services" class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -187,7 +200,7 @@
         </div>
     </div>
 </section>
-
+ -->
   <!-- <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
@@ -294,17 +307,16 @@
       </div>
   </aside>
  -->
-  <section id="contact" class="bg-dark">
+  <section id="contact" class="bg-dark alpha-text">
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="alpha">
-                <p>Ready to start your next project with us? That's great! Send us an email and we will get back to you as soon as possible!</p>
-            
+                <h2 class="section-heading">Want to hear more?</h2>
+                <hr class="light">
+                <p>Let's Get In Touch</p>
             <a href="mailto:vident.geotech@gmail.com">
             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>vident.geotech@gmail.com</p>
+                <p class="alpha-text">vident.geotech@gmail.com</p>
             </a>
             </div>
         </div>

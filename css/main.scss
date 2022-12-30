@@ -41,9 +41,11 @@ $theme-primary: #542f6d;
 $text-primary: rgb(233, 227, 227);
 $text-dark: rgb(153, 145, 145);
 $light:     #828282;
-$theme-dark: #222;
-$darker: #222;
+$theme-dark: black;
+$darker: black;
 
+$tooltip-color:  white;
+$tooltip-bg:     black;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",

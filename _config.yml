@@ -5,6 +5,8 @@ description: Vident.ai website Remote sensing analytics and exploaitation > # th
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vident.ai" # the base hostname & protocol for your site
 
+
+google_analytics: G-P7XQREBHQM
 twitter_username:
 github_username:
 
